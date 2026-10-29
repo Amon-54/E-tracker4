@@ -12,6 +12,6 @@ dependencies = [
 "requests>=2.31.0",
 ]
 [tool.flet]
-Basic Flet build configurations
+# Basic Flet build configurations
 name = "Glorian"
 org = "com.glorian"
