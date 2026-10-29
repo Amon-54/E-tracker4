@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "glorian-chat"
+version = "0.1.0"
+description = "A custom chat application powered by Gemini and Flet"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+"flet>=0.21.0",
+"requests>=2.31.0",
+]
+[tool.flet]
+Basic Flet build configurations
+name = "Glorian"
+org = "com.glorian"
